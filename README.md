@@ -17,13 +17,15 @@ spring.rate-limiter.showHeader # if show headers on response
 
 ### how to use
 
-download the repo, and install to local maven
+Download the repo, and install to local maven
 
 ```sh
 mvn clean install
 ```
 
-after doing this. add deps to your project
+After doing that. add deps to your project
+
+maven:
 
 ```xml
  <dependency>
@@ -32,6 +34,8 @@ after doing this. add deps to your project
   <version>0.0.1</version>
 </dependency>
 ```
+
+gradle:
 
 ```groovy
 implementation 'com.young:rate-limiter-spring-boot-starter:0.0.1'
