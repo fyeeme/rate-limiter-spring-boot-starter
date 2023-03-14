@@ -30,7 +30,6 @@ public class RateLimiterService {
     }
 
     private RateLimiter getRateLimiter(RateLimiterKey rateLimiterKey) {
-        log.info("build rateLimiter: {}", rateLimiterProperties.getLimit());
         RateLimiter rateLimiter;
         String cacheKey = rateLimiterKey.getCacheKey();
         if (limiterMap.containsKey(cacheKey)) {
@@ -42,6 +41,7 @@ public class RateLimiterService {
                     rateLimiter = limiterMap.get(cacheKey);
                 } else {
                     rateLimiter = RateLimiter.create(rateLimiterKey.getLimit(), rateLimiterKey.getTimeUnit());
+                    log.info("build rateLimiter: {}", rateLimiterProperties.getLimit());
                 }
                 limiterMap.put(cacheKey, rateLimiter);
             } finally {
