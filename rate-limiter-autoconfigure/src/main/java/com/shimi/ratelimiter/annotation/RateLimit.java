@@ -1,4 +1,4 @@
-package com.young.ratelimiter.annotation;
+package com.shimi.ratelimiter.annotation;
 
 
 import java.lang.annotation.ElementType;
@@ -13,5 +13,5 @@ public @interface RateLimit {
 
     int limit() default 30;
 
-    TimeUnit timeUnit() default TimeUnit.MINUTES;
+    TimeUnit timeUnit() default TimeUnit.HOURS;
 }

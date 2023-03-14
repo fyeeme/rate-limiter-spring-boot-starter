@@ -1,4 +1,4 @@
-package com.young.ratelimiter.config;
+package com.shimi.ratelimiter.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -1,4 +1,4 @@
-package com.young.ratelimiter.util;
+package com.shimi.ratelimiter.util;
 
 import jakarta.servlet.http.HttpServletRequest;
 

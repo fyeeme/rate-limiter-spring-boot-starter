@@ -8,13 +8,13 @@
         <version>3.0.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.young</groupId>
+    <groupId>com.shimi</groupId>
     <artifactId>rate-limiter-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>example</name>
     <description>example</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -30,9 +30,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.young</groupId>
+            <groupId>com.shimi</groupId>
             <artifactId>rate-limiter-spring-boot-starter</artifactId>
-            <version>0.0.1</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>

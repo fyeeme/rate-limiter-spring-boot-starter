@@ -1,4 +1,4 @@
-package com.young.example;
+package com.shimi.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

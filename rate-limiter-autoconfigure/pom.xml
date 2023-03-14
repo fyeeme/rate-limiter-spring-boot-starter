@@ -9,13 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.young</groupId>
+    <groupId>com.shimi</groupId>
     <artifactId>rate-limiter-autoconfigure</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <name>rate-limiter-autoconfigure</name>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>

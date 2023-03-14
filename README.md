@@ -29,7 +29,7 @@ maven:
 
 ```xml
  <dependency>
-  <groupId>com.young</groupId>
+  <groupId>com.shimi</groupId>
   <artifactId>rate-limiter-spring-boot-starter</artifactId>
   <version>0.0.1</version>
 </dependency>
@@ -38,7 +38,7 @@ maven:
 gradle:
 
 ```groovy
-implementation 'com.young:rate-limiter-spring-boot-starter:0.0.1'
+implementation 'com.shimi:rate-limiter-spring-boot-starter:0.0.1'
 ```
 
 Or fork this repo, and publish to your own maven

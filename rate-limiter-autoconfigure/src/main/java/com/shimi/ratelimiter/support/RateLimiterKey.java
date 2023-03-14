@@ -1,6 +1,6 @@
-package com.young.ratelimiter.support;
+package com.shimi.ratelimiter.support;
 
-import com.young.ratelimiter.annotation.RateLimit;
+import com.shimi.ratelimiter.annotation.RateLimit;
 import org.springframework.web.method.HandlerMethod;
 
 import java.util.Objects;
