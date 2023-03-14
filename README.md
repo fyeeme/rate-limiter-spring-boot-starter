@@ -40,3 +40,9 @@ gradle:
 ```groovy
 implementation 'com.young:rate-limiter-spring-boot-starter:0.0.1'
 ```
+
+Or fork this repo, and publish to your own maven
+
+### example
+
+start `rate-limiter-example` default port is `8080` and visit `http://localhost:8080/users` for several times. then api will return too many request
