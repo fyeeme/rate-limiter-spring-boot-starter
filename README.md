@@ -21,7 +21,11 @@ Download the repo, and install to local maven
 
 ```sh
 cd rate-limier-autoconfigure
+# 发布到 maven 本地
 gradle publishToMavenLocal
+cd ..
+gradle publishToMavenLocal
+
 ```
 
 After doing that. add deps to your project
