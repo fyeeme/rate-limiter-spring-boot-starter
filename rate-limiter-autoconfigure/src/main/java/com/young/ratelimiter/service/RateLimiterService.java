@@ -1,8 +1,8 @@
-package com.shimi.ratelimiter.service;
+package com.young.ratelimiter.service;
 
-import com.shimi.ratelimiter.config.RateLimiterProperties;
-import com.shimi.ratelimiter.support.RateLimiter;
-import com.shimi.ratelimiter.support.RateLimiterKey;
+import com.young.ratelimiter.config.RateLimiterProperties;
+import com.young.ratelimiter.support.RateLimiter;
+import com.young.ratelimiter.support.RateLimiterKey;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

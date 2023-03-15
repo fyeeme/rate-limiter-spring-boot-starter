@@ -1,7 +1,7 @@
-package com.shimi.ratelimiter.config;
+package com.young.ratelimiter.config;
 
-import com.shimi.ratelimiter.handler.RateLimiterInterceptor;
-import com.shimi.ratelimiter.service.RateLimiterService;
+import com.young.ratelimiter.handler.RateLimiterInterceptor;
+import com.young.ratelimiter.service.RateLimiterService;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;

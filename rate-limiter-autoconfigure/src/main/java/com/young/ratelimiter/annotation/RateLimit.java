@@ -1,4 +1,4 @@
-package com.shimi.ratelimiter.annotation;
+package com.young.ratelimiter.annotation;
 
 
 import java.lang.annotation.ElementType;

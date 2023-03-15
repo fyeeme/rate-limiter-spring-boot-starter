@@ -1,1 +1,1 @@
-com.shimi.ratelimiter.config.RateLimiterAutoConfiguration
+config.com.young.ratelimiter.RateLimiterAutoConfiguration

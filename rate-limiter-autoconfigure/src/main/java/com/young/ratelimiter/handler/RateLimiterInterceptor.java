@@ -1,10 +1,10 @@
-package com.shimi.ratelimiter.handler;
+package com.young.ratelimiter.handler;
 
-import com.shimi.ratelimiter.annotation.RateLimit;
-import com.shimi.ratelimiter.config.RateLimiterProperties;
-import com.shimi.ratelimiter.service.RateLimiterService;
-import com.shimi.ratelimiter.support.RateLimiterKey;
-import com.shimi.ratelimiter.util.IpUtil;
+import com.young.ratelimiter.annotation.RateLimit;
+import com.young.ratelimiter.config.RateLimiterProperties;
+import com.young.ratelimiter.service.RateLimiterService;
+import com.young.ratelimiter.support.RateLimiterKey;
+import com.young.ratelimiter.util.IpUtil;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;

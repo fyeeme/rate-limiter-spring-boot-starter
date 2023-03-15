@@ -20,7 +20,8 @@ spring.rate-limiter.showHeader # if show headers on response
 Download the repo, and install to local maven
 
 ```sh
-mvn clean install
+cd rate-limier-autoconfigure
+gradle publishToMavenLocal
 ```
 
 After doing that. add deps to your project
@@ -29,7 +30,7 @@ maven:
 
 ```xml
  <dependency>
-  <groupId>com.shimi</groupId>
+  <groupId>com.young</groupId>
   <artifactId>rate-limiter-spring-boot-starter</artifactId>
   <version>0.0.1</version>
 </dependency>
@@ -38,7 +39,7 @@ maven:
 gradle:
 
 ```groovy
-implementation 'com.shimi:rate-limiter-spring-boot-starter:0.0.1'
+implementation 'com.young:rate-limiter-spring-boot-starter:0.0.1'
 ```
 
 Or fork this repo, and publish to your own maven
