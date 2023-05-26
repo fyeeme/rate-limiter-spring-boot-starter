@@ -22,7 +22,7 @@ dependencies {
 group = 'com.young'
 version = '0.0.1'
 description = 'rate-limiter-spring-boot-starter'
-sourceCompatibility = '17'
+sourceCompatibility = '11'
 
 publishing {
     publications {

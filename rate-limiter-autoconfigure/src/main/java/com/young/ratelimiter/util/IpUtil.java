@@ -1,7 +1,7 @@
 package com.young.ratelimiter.util;
 
-import jakarta.servlet.http.HttpServletRequest;
 
+import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Arrays;
