@@ -1,4 +1,5 @@
 # RateLimiterSpringBootStarter
+[![](https://jitpack.io/v/fyeeme/rate-limiter-spring-boot-starter.svg)](https://jitpack.io/#fyeeme/rate-limiter-spring-boot-starter)
 
 ### overview
 
@@ -16,6 +17,8 @@ spring.rate-limiter.showHeader # if show headers on response
 ```
 
 ### how to use
+
+#### 1. maven local repo 
 
 Download the repo, and install to local maven
 
@@ -42,6 +45,45 @@ implementation 'com.young:rate-limiter-spring-boot-starter:0.0.1'
 ```
 
 Or fork this repo, and publish to your own maven
+
+#### 2. jitpack
+
+use maven 
+```xml 
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+```xml 
+<dependency>
+    <groupId>com.github.fyeeme</groupId>
+    <artifactId>rate-limiter-spring-boot-starter</artifactId>
+    <version>Tag</version>
+</dependency>
+```
+
+use gradle 
+
+```gradle 
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+```gradle 
+dependencies {
+      implementation 'com.github.fyeeme:rate-limiter-spring-boot-starter:Tag'
+}
+```
+
 
 ### example
 
