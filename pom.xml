@@ -16,6 +16,7 @@
 
     <modules>
         <module>rate-limiter-autoconfigure</module>
+        <module>rate-limiter-example</module>
     </modules>
 
 </project>

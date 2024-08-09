@@ -34,14 +34,14 @@ maven:
  <dependency>
   <groupId>com.young</groupId>
   <artifactId>rate-limiter-spring-boot-starter</artifactId>
-  <version>0.0.1</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
 gradle:
 
 ```groovy
-implementation 'com.young:rate-limiter-spring-boot-starter:0.0.1'
+implementation 'com.young:rate-limiter-spring-boot-starter:1.0.0'
 ```
 
 Or fork this repo, and publish to your own maven
@@ -62,7 +62,9 @@ use maven
 <dependency>
     <groupId>com.github.fyeeme</groupId>
     <artifactId>rate-limiter-spring-boot-starter</artifactId>
+    <!--替换成真实的地址，比如： 1.0.3-->
     <version>Tag</version>
+    
 </dependency>
 ```
 
