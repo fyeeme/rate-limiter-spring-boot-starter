@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.young</groupId>
     <artifactId>rate-limiter-example</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <name>example</name>
     <description>example</description>
     <properties>
@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.young</groupId>
             <artifactId>rate-limiter-spring-boot-starter</artifactId>
-            <version>0.0.1</version>
+            <version>1.0.1</version>
         </dependency>
 
         <dependency>
@@ -47,6 +47,12 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>
