@@ -30,9 +30,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.young</groupId>
+            <groupId>com.github.fyeeme</groupId>
             <artifactId>rate-limiter-spring-boot-starter</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </dependency>
 
         <dependency>
