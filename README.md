@@ -89,4 +89,12 @@ dependencies {
 
 ### example
 
+with docker 
+
+```shell
+docker build --platform linux/amd64 -t rate-limiter .
+docker run --rm -p 8011:8080 rate-limiter
+```
 start `rate-limiter-example` default port is `8080` and visit `http://localhost:8080/users` for several times. then api will return too many request
+
+
