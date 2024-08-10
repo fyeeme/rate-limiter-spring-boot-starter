@@ -1,4 +1,5 @@
 # RateLimiterSpringBootStarter
+[![Java CI with Maven](https://github.com/fyeeme/rate-limiter-spring-boot-starter/actions/workflows/maven.yml/badge.svg)](https://github.com/fyeeme/rate-limiter-spring-boot-starter/actions/workflows/maven.yml)
 [![](https://jitpack.io/v/fyeeme/rate-limiter-spring-boot-starter.svg)](https://jitpack.io/#fyeeme/rate-limiter-spring-boot-starter)
 
 ### overview
