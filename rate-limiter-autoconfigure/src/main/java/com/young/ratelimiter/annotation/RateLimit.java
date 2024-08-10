@@ -7,11 +7,24 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Marks the maximum invocation frequency of a method.
+ */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface RateLimit {
 
-    int limit() default 30;
+    /**
+     * Gets the rate limit count.
+     *
+     * @return The rate limit count
+     */
+    int limit() default 5;
 
+    /**
+     * Gets the time unit.
+     *
+     * @return The time unit
+     */
     TimeUnit timeUnit() default TimeUnit.MINUTES;
 }
