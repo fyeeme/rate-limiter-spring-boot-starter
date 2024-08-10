@@ -101,3 +101,10 @@ start `rate-limiter-example` default port is `8080` and visit `http://localhost:
 
 
 visit [https://rate-limiter-spring-boot-starter.onrender.com/users](https://rate-limiter-spring-boot-starter.onrender.com/users) , Refresh the link address. You can access it up to 5 times per minute. If you exceed 5 times, a 429 exception will be thrown. You can continue accessing it after waiting for one minute.
+
+also the response headers will also expose parameters
+
+```shell
+x-rate-limit-remaining:4
+x-ratelimit-limit:5
+```
