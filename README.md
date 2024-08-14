@@ -17,6 +17,9 @@ spring.rate-limiter.enable # if enable
 spring.rate-limiter.showHeader # if show headers on response
 ```
 
+### TODO 
+- [ ] support custom key base on spl
+- [ ] support redis for distributed Services
 ### how to use
 
 #### 1. maven local repo 
